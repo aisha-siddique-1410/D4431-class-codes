@@ -1,0 +1,177 @@
+/* .heading {
+    color: red;
+    text-align: center;
+}
+
+#para {
+    color: green;
+    font-size: 25px;
+} */
+
+ /* body {
+    background-image: url("https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F3%2F38%2FMagnolia_grandiflora_-_flower_1.jpg%2F330px-Magnolia_grandiflora_-_flower_1.jpg&sp=1768285776Tde53ebfc1b0a169e01c2332f3cca56a347d205fefe822be1eef758661c5fa9ed");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}  */
+/* p{
+    color: white;
+} */
+
+/* div {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    /* border: 3px;
+    border-color: black;
+    border-style: solid; */
+    /* border: 2px solid black; */
+    /* border-radius: 50%; */
+
+     
+/* .box {
+    /* background-color: lightblue; */
+    /* background-image: url("https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F3%2F38%2FMagnolia_grandiflora_-_flower_1.jpg%2F330px-Magnolia_grandiflora_-_flower_1.jpg&sp=1768285776Tde53ebfc1b0a169e01c2332f3cca56a347d205fefe822be1eef758661c5fa9ed");
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-color: aqua; */
+    /* background-size: auto; same size as picture
+     */
+
+      /* background-size: cover;  */
+     /* fill container (crop if needed) */
+
+     /* background-size: contain; fit fully */
+/* 
+     background-attachment: scroll; */
+
+
+     /* .box {
+        width: 350px;
+        height: 200px;
+        color: rgb(189, 37, 37);
+        border: 2px solid black;
+        margin: auto;
+
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+     }
+     
+     .box1{
+        background: url();
+       
+     }
+
+     .box2{
+        background-image: url();
+        background-attachment: local;
+         margin-top: 10px;
+         overflow: auto;
+
+     }
+
+     .box3 {
+         margin-top: 10px;
+        background-image: url();
+     }
+
+     
+div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+   background-color: red;
+   /* padding-top: 40px;
+   padding-left: 20px; */
+   /* padding: 40px;  space from all sides */
+   /* padding : 20px 30px 40px 50px; clock-wise
+   padding : 20px 40px; top-bottom left-right
+   padding : 30px 40px 50px; top left-right bottom */
+   /* margin-top: 20px;
+   margin-left: 30px; */
+   /* margin: 40px 30px; */
+
+   
+/* 
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#navbar {
+    height: 60px;
+    background-color: #0f110f;
+    padding-top: 27px;
+}
+button {
+    background-color: #f08804;
+}
+
+#logo {
+    color: #f08804;
+    font-size: 25px;
+
+}
+
+a {
+    margin-right: 200px;
+    text-decoration: none;
+ 
+} */
+
+/* div {
+  
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+
+#box2 {
+    display: bl
+} */
+
+/* button {
+    display: block;
+}
+a {
+    background-color: red;
+    display: block;
+} */
+
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1 {
+    position: static;
+    top: 30px;
+    left: 30px;
+    background-color: blue;
+    
+}
+#box2{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    background-color: greenyellow;
+}
+
+#box3 {
+    position: absolute;
+    top: 20px;
+    left : 30px;
+    background-color: red;
+}
