@@ -1,177 +1,222 @@
-/* .heading {
-    color: red;
-    text-align: center;
-}
-
-#para {
-    color: green;
-    font-size: 25px;
-} */
-
- /* body {
-    background-image: url("https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F3%2F38%2FMagnolia_grandiflora_-_flower_1.jpg%2F330px-Magnolia_grandiflora_-_flower_1.jpg&sp=1768285776Tde53ebfc1b0a169e01c2332f3cca56a347d205fefe822be1eef758661c5fa9ed");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-   
-}  */
-/* p{
-    color: white;
-} */
-
-/* div {
-    background-color: red;
-    height: 100px;
-    width: 100px;
-    /* border: 3px;
-    border-color: black;
-    border-style: solid; */
-    /* border: 2px solid black; */
-    /* border-radius: 50%; */
-
-     
-/* .box {
-    /* background-color: lightblue; */
-    /* background-image: url("https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F3%2F38%2FMagnolia_grandiflora_-_flower_1.jpg%2F330px-Magnolia_grandiflora_-_flower_1.jpg&sp=1768285776Tde53ebfc1b0a169e01c2332f3cca56a347d205fefe822be1eef758661c5fa9ed");
-    height: 300px;
-    width: 300px;
-    background-repeat: no-repeat;
-    background-color: aqua; */
-    /* background-size: auto; same size as picture
-     */
-
-      /* background-size: cover;  */
-     /* fill container (crop if needed) */
-
-     /* background-size: contain; fit fully */
-/* 
-     background-attachment: scroll; */
-
-
-     /* .box {
-        width: 350px;
-        height: 200px;
-        color: rgb(189, 37, 37);
-        border: 2px solid black;
-        margin: auto;
-
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-     }
-     
-     .box1{
-        background: url();
-       
-     }
-
-     .box2{
-        background-image: url();
-        background-attachment: local;
-         margin-top: 10px;
-         overflow: auto;
-
-     }
-
-     .box3 {
-         margin-top: 10px;
-        background-image: url();
-     }
-
-     
-div {
-    width: 100px;
-    height: 100px;
-    border: 2px solid black;
-   background-color: red;
-   /* padding-top: 40px;
-   padding-left: 20px; */
-   /* padding: 40px;  space from all sides */
-   /* padding : 20px 30px 40px 50px; clock-wise
-   padding : 20px 40px; top-bottom left-right
-   padding : 30px 40px 50px; top left-right bottom */
-   /* margin-top: 20px;
-   margin-left: 30px; */
-   /* margin: 40px 30px; */
-
-   
-/* 
 *{
-    padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    padding: 0;
 }
 
-#navbar {
-    height: 60px;
-    background-color: #0f110f;
-    padding-top: 27px;
-}
-button {
-    background-color: #f08804;
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
-#logo {
-    color: #f08804;
-    font-size: 25px;
+.navbar {
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.navbar-container{
+    max-width: 1250px;
+    margin: 0 auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 38px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
 
 }
 
-a {
-    margin-right: 200px;
+.menu a{
     text-decoration: none;
- 
-} */
-
-/* div {
-  
-    height: 100px;
-    width: 100px;
-    margin: 25px;
-    padding: 25px;
-    display: inline-block;
-}
-
-#box2 {
-    display: bl
-} */
-
-/* button {
-    display: block;
-}
-a {
-    background-color: red;
-    display: block;
-} */
-
-
-div {
-    height: 100px;
-    width: 100px;
-    background-color: aqua;
-    border: 2px solid black;
-    display: inline-block;
-}
-
-#box1 {
-    position: static;
-    top: 30px;
-    left: 30px;
-    background-color: blue;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
     
 }
-#box2{
-    position: relative;
-    top: 30px;
-    left: 30px;
-    background-color: greenyellow;
+
+.menu a span {
+    font-size: 12px;
+
+}
+.menu a:hover{
+    color: #e34040;
 }
 
-#box3 {
-    position: absolute;
-    top: 20px;
-    left : 30px;
-    background-color: red;
+.menu a.active{
+    color: #e34040;
+    font-weight: 600;
 }
+
+.cta a{
+    text-decoration: none;
+    border: 2px solid #e34040;
+    border-radius: 30px;
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #e34040;
+
+}
+.cta a:hover{
+    background: #e34040;
+    color: #fff;
+}
+
+.hero {
+   width: 100%;
+   height: 500px;
+   background: url("https://images-eu.ssl-images-amazon.com/images/G/31/Img26/Sports/January/JanART/GW/Heros/Legacy/urgency/UNREC_-_Overall_-_PC_-_ET_-_3000._CB773654419_.jpg") no-repeat center;
+   background-size: cover;
+   position: relative;
+
+}
+
+.hero-container {
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+
+}
+.hero-content h1 {
+    font-size: 52px;
+    font-weight: 700;
+    color: #222;
+    line-height: 1.2;
+}
+
+.hero-content h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #e11b22;
+    margin-top: 12px;
+}
+
+.hero-underline {
+    display: inline-block;
+    width: 60px;
+    height: 4px;
+    background-color: #e11b22;
+    margin-top: 18px;
+    border-radius: 2px;
+}
+
+.contact-section {
+    padding: 80px 20px;
+    background: #ffffff;
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+}
+
+/* LEFT INFO */
+.contact-info {
+    flex: 1;
+    padding-top: 20px;
+}
+
+.contact-info h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+    color: #111;
+}
+
+/* SOCIAL ICONS */
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.social-icons .fb { background: #3b5998; }
+.social-icons .ig { background: #e1306c; }
+.social-icons .tw { background: #1da1f2; }
+.social-icons .yt { background: #ff0000; }
+
+/* RIGHT FORM */
+.contact-form {
+    flex: 1;
+    background: #fff;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.08);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    border-radius: 3px;
+    outline: none;
+}
+
+.contact-form textarea {
+    min-height: 120px;
+    resize: none;
+}
+
+.contact-form button {
+    margin-top: 10px;
+    align-self: center;
+    padding: 14px 36px;
+    background: #e0433e;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #c93530;
+}
+
+
+
+
