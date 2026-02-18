@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.card {
+  width: 400px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.quote {
+  font-size: 18px;
+  font-style: italic;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.author {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.new {
+  background: #4f46e5;
+}
+
+.new:hover {
+  background: #4338ca;
+}
+
+.copy {
+  background: #6b7280;
+}
+
+.copy:hover {
+  background: #4b5563;
+}
+
+.copied {
+  margin-top: 15px;
+  background: #22c55e;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.count {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #666;
+}
